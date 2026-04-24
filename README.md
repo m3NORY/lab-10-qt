@@ -6,7 +6,7 @@
 **FIFO (First In First Out)** — удаляет самый старый добавленный элемент  
 **LFU (Least Frequently Used)** — удаляет наименее часто используемый элемент  
 ##
-**Пример использования**
+**Пример использования**  
 *LRU Cache*  
 Cache<int, std::string, LRUPolicy<int>> cache(2);  
 cache.put(1, "A");  
